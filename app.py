@@ -87,8 +87,7 @@ def main():
 
     # Title and description
     st.markdown("<h1 class='chat-header'>🩺 Medical Assistant Chatbot</h1>", unsafe_allow_html=True)
-    st.markdown("<div class='chat-container'>", unsafe_allow_html=True)
-    st.markdown("""
+    st.markdown("""<div class='chat-container'>
     This AI-powered medical assistant can help you with health-related queries. 
     Please note that this is an AI tool and should not replace professional medical advice.
     """, unsafe_allow_html=True)
